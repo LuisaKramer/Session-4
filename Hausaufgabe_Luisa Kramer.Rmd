@@ -75,6 +75,9 @@ titanic %>%
 ```
 
 # Mit mehr als zwei Features
+
+# Urpsprünglich wollte ich die Klasse "Cabin" nehmen und den Kabinnennummern die Decks zuweisen, um so herauszufinden, ob z.B. Passagiere von Deck G häufiger gestorben sind als von Deck A. Die Titanic hatte Deck A,B,C,D,E,F,G - nach meiner Recherche musste ich aber feststellen, dass Kabinen aller 3 Klassen gleichmäßig auf alle Decks verteilt waren, somit macht eine Abfrage mit den Kabinen keinen Sinn, leider fehlt die Kabinennummer auch sehr häufig in den Daten.
+
 # Einbauen der Abfrage in Bezug auf den Einstiegshafen (S=Southhampton, C=Cherbourgh, Q=Queenstown)
 
 ```{r}
